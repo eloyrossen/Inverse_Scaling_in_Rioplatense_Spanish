@@ -10,11 +10,7 @@ Term paper for the course *Theories of Sentence Processing* (Universität Potsda
 
 Language models make it possible to estimate the **surprisal** of each word (−log₂ P(word | context)), a classic predictor of reading difficulty: the less expected a word is, the longer readers look at it. Recent work on English (Oh & Schuler, 2023) found a counterintuitive result, known as *inverse scaling*: as models grow larger, their surprisal predicts human reading times **worse**.
 
-This project asks whether that pattern also holds for a Spanish variety that is far less represented in training data:
-
-> Does the size of a multilingual language model affect its ability to predict the reading times of Rioplatense Spanish speakers, and does the inverse scaling reported for English replicate there?
-
-To avoid confounding size with architecture or training data, models are compared **within each model family**.
+This project asks whether that pattern also holds for a Spanish variety that is far less represented in training data. To avoid confounding size with architecture or training data, models are compared **within each model family**.
 
 ## Data
 
